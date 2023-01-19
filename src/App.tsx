@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Demonstrate from "./components/demonstration/Demonstrate";
+import Demonstrate from "./components/demonstrate/Demonstrate";
 
 function App() {
   return (

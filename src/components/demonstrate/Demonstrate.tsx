@@ -1,4 +1,5 @@
 import React, { FC, useEffect, useState } from "react";
+import { Todo } from "../todos/Todo";
 import { fetchTodo } from "./helpers/fetch-todo/fetch-todo";
 import { isOdd } from "./helpers/is-odd/is-odd";
 import { percentage } from "./helpers/percentage/percentage";
@@ -45,6 +46,7 @@ const Demonstrate: FC = () => {
           {`${isOddNumber}`}
         </span>
       </div>
+      <Todo />
     </>
   );
 };
